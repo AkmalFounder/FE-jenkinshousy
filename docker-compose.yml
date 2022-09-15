@@ -3,7 +3,7 @@ services:
  frontend:
    build: .
    container_name: fe
-   image: yubisa/housy-fe:stable
+   image: yubisayu/housy-fe:stable
    stdin_open: true
    ports:
     - 3030:3000
