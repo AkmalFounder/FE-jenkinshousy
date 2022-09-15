@@ -1,5 +1,5 @@
 def secret = 'Jenkinskel4'
-def server = 'kelompok4jenkins@103.174.114.178'
+def server = 'jenkinss@103.174.114.178'
 def directory = 'housy-frontend'
 def branch = 'main'
 
