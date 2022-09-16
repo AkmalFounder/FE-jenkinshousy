@@ -1,4 +1,3 @@
-def secret = 'Jenkinskel4'
 def server = 'jenkinss@103.174.114.178'
 def directory = 'housy-frontend'
 def branch = 'main'
@@ -40,6 +39,14 @@ pipeline{
                     EOF"""
                 }
             }
+
         }
+	stage ('discord cuyy'){
+            steps{
+                echo 'Test to Discord'
+		discordSend description: 'Berhasil', footer: '', image: '', link: '', result: '', scmWebUrl: '', thumbnail: '', title: '', webhookURL: 'https://discord.com/api/webhooks/1020154216347611157/AUzYJMHVQ5rRHG4VAW9ARfw076K3DyK3jybGDKB78T5QIssqTb5zurEzlwGw85QB8byH'
+               }
+            }
     }
 }
+
